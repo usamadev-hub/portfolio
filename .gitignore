@@ -26,4 +26,4 @@ Thumbs.db
 npm-debug.log*
 
 # Root-level screenshots (not needed in repo)
-images/
+/images/
