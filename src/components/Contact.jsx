@@ -57,7 +57,7 @@ export default function Contact() {
               {contacts.map(({ icon, label, val, href }) => (
                 <div key={label} className="ct-item">
                   <div className="ct-ico">{icon}</div>
-                  <div>
+                  <div className="ct-info">
                     <div className="ct-lbl">{label}</div>
                     {href
                       ? <a href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noreferrer" className="ct-val">{val}</a>
