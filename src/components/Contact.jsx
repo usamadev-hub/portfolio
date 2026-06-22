@@ -20,12 +20,12 @@ export default function Contact() {
         opacity: 0, y: 40, duration: 0.9, ease: 'expo.out',
       });
       gsap.from('.ct-left', {
-        scrollTrigger: { trigger: '.ct-grid', start: 'top 82%' },
-        opacity: 0, x: -60, duration: 1, ease: 'expo.out',
+        scrollTrigger: { trigger: '.ct-grid', start: 'top 85%' },
+        opacity: 0, y: 50, duration: 1, ease: 'expo.out',
       });
       gsap.from('.ct-right', {
-        scrollTrigger: { trigger: '.ct-grid', start: 'top 82%' },
-        opacity: 0, x: 60, duration: 1, ease: 'expo.out',
+        scrollTrigger: { trigger: '.ct-grid', start: 'top 85%' },
+        opacity: 0, y: 50, duration: 1, ease: 'expo.out',
       });
       gsap.from('.ct-item', {
         scrollTrigger: { trigger: '.ct-items', start: 'top 82%' },

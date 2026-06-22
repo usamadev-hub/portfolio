@@ -34,8 +34,8 @@ export default function Education() {
         opacity: 0, y: 40, duration: 0.9, ease: 'expo.out',
       });
       gsap.from('.edu-card, .fyp-card', {
-        scrollTrigger: { trigger: '.edu-list', start: 'top 82%' },
-        opacity: 0, x: -50,
+        scrollTrigger: { trigger: '.edu-list', start: 'top 85%' },
+        opacity: 0, y: 40,
         stagger: 0.18, duration: 0.85, ease: 'power3.out',
       });
     }, ref);

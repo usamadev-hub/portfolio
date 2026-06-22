@@ -56,8 +56,8 @@ export default function Experience() {
         opacity: 0, y: 40, duration: 0.9, ease: 'expo.out',
       });
       gsap.from('.tl-item', {
-        scrollTrigger: { trigger: '.tl', start: 'top 80%' },
-        opacity: 0, x: -60,
+        scrollTrigger: { trigger: '.tl', start: 'top 85%' },
+        opacity: 0, y: 40,
         stagger: 0.2, duration: 0.9, ease: 'expo.out',
       });
     }, ref);

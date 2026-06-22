@@ -16,12 +16,12 @@ export default function About() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from('.about-left', {
-        scrollTrigger: { trigger: '.about-left', start: 'top 82%' },
-        opacity: 0, x: -60, duration: 1, ease: 'expo.out',
+        scrollTrigger: { trigger: '.about-left', start: 'top 85%' },
+        opacity: 0, y: 50, duration: 1, ease: 'expo.out',
       });
       gsap.from('.about-right .info-card', {
-        scrollTrigger: { trigger: '.about-right', start: 'top 82%' },
-        opacity: 0, x: 60, y: 20,
+        scrollTrigger: { trigger: '.about-right', start: 'top 85%' },
+        opacity: 0, y: 40,
         stagger: 0.12, duration: 0.8, ease: 'power3.out',
       });
     }, ref);
@@ -62,7 +62,7 @@ export default function About() {
               {info.map(({ icon, label, value, href }) => (
                 <div key={label} className="info-card glass card-hover">
                   <div className="info-ico">{icon}</div>
-                  <div>
+                  <div className="info-body">
                     <div className="info-lbl">{label}</div>
                     <div className="info-val">
                       {href
