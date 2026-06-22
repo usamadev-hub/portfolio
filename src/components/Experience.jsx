@@ -55,10 +55,6 @@ export default function Experience() {
         scrollTrigger: { trigger: '.exp-header', start: 'top 85%' },
         opacity: 0, y: 40, duration: 0.9, ease: 'expo.out',
       });
-      gsap.from('.tl::before', {
-        scrollTrigger: { trigger: '.tl', start: 'top 80%', end: 'bottom 20%', scrub: 1 },
-        scaleY: 0, transformOrigin: 'top',
-      });
       gsap.from('.tl-item', {
         scrollTrigger: { trigger: '.tl', start: 'top 80%' },
         opacity: 0, x: -60,
