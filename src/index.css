@@ -72,6 +72,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--nav-h);
+  overflow-x: hidden;
 }
 
 body {
@@ -695,7 +696,7 @@ section    { padding: 108px 0; position: relative; z-index: 1; }
 /* ============================================================
    EXPERIENCE
    ============================================================ */
-#experience { background: var(--bg); }
+#experience { background: var(--bg); overflow: hidden; }
 
 .tl { position: relative; padding-left: 42px; }
 .tl::before {
@@ -966,7 +967,7 @@ section    { padding: 108px 0; position: relative; z-index: 1; }
 /* ============================================================
    PERSONAL PROJECTS
    ============================================================ */
-#personal { background: var(--bg-2); }
+#personal { background: var(--bg-2); overflow: hidden; }
 
 .per-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 
@@ -1070,7 +1071,7 @@ section    { padding: 108px 0; position: relative; z-index: 1; }
 /* ============================================================
    LANGUAGES
    ============================================================ */
-#languages { background: var(--bg-2); }
+#languages { background: var(--bg-2); overflow: hidden; }
 
 .lang-grid {
   display: grid; grid-template-columns: 1fr 1fr;
@@ -1095,7 +1096,7 @@ section    { padding: 108px 0; position: relative; z-index: 1; }
 /* ============================================================
    INTERESTS
    ============================================================ */
-#interests { background: var(--bg); }
+#interests { background: var(--bg); overflow: hidden; }
 
 .int-grid {
   display: grid;
