@@ -48,6 +48,20 @@ const projects = [
     desc:  'Custom dental billing eBook landing page with lead capture form and CRM integration.',
     tags:  ['HTML', 'CSS', 'Bootstrap', 'PHP', 'CRM Integration', 'Lead Generation'],
   },
+  {
+    img:   '/images/medalert.png',
+    badge: 'Medical Alert',
+    title: 'The MedAlert — Medical Alert Device Landing Page',
+    desc:  'Senior safety lead-gen landing page for 24/7 medical alert devices, with a multi-step quote form routed to CallGrid, Ringba, and TracDrive CRMs.',
+    tags:  ['HTML', 'CSS', 'Bootstrap', 'PHP', 'CRM Integration', 'Lead Generation'],
+  },
+  {
+    img:   '/images/trustedcoveragehelp.png',
+    badge: 'Medicare Insurance',
+    title: 'Trusted Coverage Help — Medicare Advantage Landing Page',
+    desc:  'Medicare Advantage lead-gen site with an inline agent-connect form, plan comparison sections, and CRM integration across CallGrid, Ringba, and TracDrive.',
+    tags:  ['HTML', 'CSS', 'Bootstrap', 'PHP', 'CRM Integration', 'Lead Generation'],
+  },
 ];
 
 export default projects;
